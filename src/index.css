@@ -11,37 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/*TopNavHeader*/
-
-.TopHeader_Title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 30px;
-}
-
-.TopHeader_Details {
-  display: flex;
-}
-.TopHeader_Details ul {
-  display: flex;
-  list-style: none;
-  gap: 15px;
-}
-.TopHeader_Details ul li {
-  display: inline-block;
-  gap: 10px;
-}
-.TopRight_LoginHeader {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.TopRight_LoginHeader button {
-  border: 1px solid #0000003b;
-  background-color: #fff;
-  padding: 12px 15px 12px 15px;
-  border-radius: 10px;
-  cursor: pointer;
-}
