@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { getMeals } from "../services/mealService";
+import { Meal } from "../services/MyTypes";
 import SearchBar from "../components/SearchBar";
 import MealList from "../components/MealList";
 import TopNavBar from "../components/TopNavBar";
 
 const MealListPage: React.FC = () => {
-    const [meals, setMeals] = useState<any[]>([]);
+    const [meals, setMeals] = useState<Meal[]>([]);
 
     const fetchMeals = async (query: string) => {
         const response = await getMeals(query);
@@ -27,7 +28,3 @@ const MealListPage: React.FC = () => {
 };
 
 export default MealListPage;
-
-
-
-

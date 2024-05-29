@@ -1,20 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getMealDetail } from '../services/mealService';
+import { Meal } from '../services/MyTypes';
 
 const MealDetail: React.FC = () => {
-    const { id } = useParams<{ id: any }>();
-    const [meal, setMeal] = useState<any>(null);
+    const { id } = useParams<{ id: string }>();
+    const [meal, setMeal] = useState<Meal | null>(null);
 
     useEffect(() => {
         const fetchMealDetail = async () => {
-            const data = await getMealDetail(id);
-            setMeal(data);
+            if (id) {
+                const data = await getMealDetail(id);
+                setMeal(data);
+            }
         };
 
         fetchMealDetail();
     }, [id]);
-    
 
     if (!meal) return <div>Loading...</div>;
 
@@ -28,4 +30,3 @@ const MealDetail: React.FC = () => {
 };
 
 export default MealDetail;
-
