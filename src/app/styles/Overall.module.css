@@ -1,0 +1,110 @@
+ /* .listnew {
+    background-color: lightgray;
+ } */
+ 
+ .topHeading {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+ 
+  .innerHeading {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .innerHeading h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .innerHeading img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .innerHeading p {
+    width: 100%;
+    line-height: 23px;
+    text-align: start;
+  }
+  
+  .topHeading .inputSearch {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 35%;
+  }
+  
+  .topHeading .searchButton {
+    padding: 8px 30px;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ff7600;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .topHeading .button:hover {
+    background-color: #ff7600;
+  }
+  
+  /* .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px; 
+  } */
+  
+  .mealCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  
+  .mealCard img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+  }
+  
+  .mealCard h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .mealCard p {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .mealCard a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+  }
+  
+  .mealCard a:hover {
+    background-color: #0056b3;
+  }
+  
+  .denoGrid {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  

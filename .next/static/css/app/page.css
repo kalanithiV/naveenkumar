@@ -1,0 +1,200 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/styles/Overall.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+ /* .listnew {
+    background-color: lightgray;
+ } */
+ 
+ .Overall_topHeading__1GuZf {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+ 
+  .Overall_innerHeading__VEfz4 {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .Overall_innerHeading__VEfz4 h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .Overall_innerHeading__VEfz4 img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .Overall_innerHeading__VEfz4 p {
+    width: 100%;
+    line-height: 23px;
+    text-align: start;
+  }
+  
+  .Overall_topHeading__1GuZf .Overall_inputSearch__Ad0tS {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 35%;
+  }
+  
+  .Overall_topHeading__1GuZf .Overall_searchButton__H0AjS {
+    padding: 8px 30px;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ff7600;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Overall_topHeading__1GuZf .Overall_button__xfavN:hover {
+    background-color: #ff7600;
+  }
+  
+  /* .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px; 
+  } */
+  
+  .Overall_mealCard__fEKde {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  
+  .Overall_mealCard__fEKde img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+  }
+  
+  .Overall_mealCard__fEKde h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .Overall_mealCard__fEKde p {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .Overall_mealCard__fEKde a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+  }
+  
+  .Overall_mealCard__fEKde a:hover {
+    background-color: #0056b3;
+  }
+  
+  .Overall_denoGrid__jjJ5Q {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/styles/TopNavBar.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.TopNavBar_topNav__117Gx {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 16px;
+  margin-top: 15px;
+}
+
+.TopNavBar_navLeft__YTu4W {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+}
+
+.TopNavBar_logo__ZSUFX {
+  height: 70px; 
+  width: 70px; 
+  margin-right: 16px;
+  border-radius: 50%; 
+}
+
+.TopNavBar_navRight__ZWTAU {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.TopNavBar_navRight__ZWTAU li {
+  margin-left: 16px;
+}
+
+.TopNavBar_navRight__ZWTAU li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.TopNavBar_navRight__ZWTAU li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.TopNavBar_topNav__117Gx ul {
+  display: flex;
+  padding: 0px 0px 0px 350px;
+  list-style-type: none;
+}
+
+/* .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+.TopNavBar_topNav__117Gx ul li {
+  float: right;
+}
+
+.TopNavBar_topNav__117Gx ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.TopNavBar_topNav__117Gx ul li .TopNavBar_homeLink__Y98I2 {
+    color: #ff7600;
+}
+
+.TopNavBar_topNav__117Gx ul li a:hover {
+  background-color: #fff;
+  color: #ff7600;
+}
+.TopNavBar_mosterImg__xM_Sd {
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 900;
+  color: #4b365e;
+}
